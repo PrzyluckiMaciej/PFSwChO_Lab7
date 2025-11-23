@@ -56,4 +56,4 @@ Otrzymany adres wykorzystano w poleceniu:
 curl http://127.0.0.1:55046 > webpage.html
 ```
 
-Polecenie zwróciło kod HTML domyślnej strony internetowej aktywnej w podzie remoteweb. Kod znajduje się w pliku [webpage.html](webpage.html).
+Polecenie zwróciło [kod HTML](webpage.html) domyślnej strony internetowej aktywnej w podzie remoteweb.
