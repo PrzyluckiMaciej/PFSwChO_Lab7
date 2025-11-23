@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: remoteweb
+  name: remoteweb
+  namespace: remote
+spec:
+  containers:
+  - image: nginx
+    name: remoteweb
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
